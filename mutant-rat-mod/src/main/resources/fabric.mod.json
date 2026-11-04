@@ -1,0 +1,22 @@
+{
+	"schemaVersion": 1,
+	"id": "mutantrat",
+	"version": "${version}",
+	"name": "Mutant Rat",
+	"description": "Um rato mutante tóxico com cristais brilhantes nas costas. Aparece à noite, principalmente em pântanos.",
+	"authors": ["Gabriel"],
+	"license": "All-Rights-Reserved",
+	"icon": "assets/mutantrat/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.mutantrat.MutantRatMod"],
+		"client": ["dev.mutantrat.client.MutantRatClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"geckolib": ">=4.7.0"
+	}
+}
